@@ -1,0 +1,2 @@
+export 'package:nozom_pda/infrastructure/navigation/bindings/controllers/home.controller.binding.dart'; 
+export 'package:nozom_pda/infrastructure/navigation/bindings/controllers/unauthorized.controller.binding.dart'; 

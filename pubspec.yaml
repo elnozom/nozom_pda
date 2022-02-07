@@ -1,0 +1,38 @@
+name: nozom_pda
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=2.16.0-80.1.beta <3.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  get: 4.6.1
+  flutter: 
+    sdk: flutter
+
+  get_storage: ^2.0.3
+  logger: ^1.1.0
+  json_annotation: ^4.4.0
+
+dev_dependencies: 
+  flutter_lints: ^1.0.0
+  json_serializable: ^6.0.0
+  lints: 1.0.1
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  uses-material-design: true
+
+  assets:
+    - assets/images/home-bg.png
+    - assets/images/lock.png
+    - assets/images/sad.png
+    - assets/images/logo.png
+
+
+  fonts:
+    - family: Frutiger
+      fonts:
+        - asset: assets/fonts/Frutiger.ttf
